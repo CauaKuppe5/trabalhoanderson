@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lançar Venda de Produtos</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lançar Venda de Produtos</h1>
+        <ul id="product-list"></ul>
+        <div id="sale-form">
+            <h2>Lançar Venda</h2>
+            <label for="saleProductName">Produto:</label>
+            <select id="saleProductName" required></select>
+            <label for="saleQuantity">Quantidade:</label>
+            <input type="number" id="saleQuantity" required>
+            <button onclick="addSale()">Lançar Venda</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

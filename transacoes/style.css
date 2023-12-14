@@ -1,0 +1,20 @@
+header {
+  padding: 32px;
+  text-align: center;
+  background-color: var(--color-primary);
+  & h1 {
+    color: var(--color-white);
+  }
+}
+main {
+  background-color: var(--color-tertiary);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+li p,
+ul h3,
+ul p {
+  color: var(--color-white);
+}
